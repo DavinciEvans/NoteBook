@@ -2,9 +2,9 @@
 
 [![io](https://img.shields.io/badge/author-Davinci-brightgreen.svg?style=flat-square)](https://davincievans.top)
 
-代码如诗，生命如歌。
+Write the code, change the world.
 
-这里是Davinci的NoteBook，记录了日常编程学习时的笔记以及生活感想（如果有的话XD）
+这里是Davinci的NoteBook，记录了日常编程学习时的笔记以及读书感悟。
 
 | 目录 | 介绍 |
 | --- | --- |
