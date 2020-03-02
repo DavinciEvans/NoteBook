@@ -1,10 +1,10 @@
-# MarkDown 语法归纳
+# markdown语法归纳
 
 ## 标题
 
 使用 `#` 来作为标题
 
-```markdown
+```text
 # 一级标题
 ## 二级标题
 ### 三级标题
@@ -23,7 +23,7 @@
 
 对文本拥有以下操作方法：
 
-```markdown
+```text
 *斜体文本*
 
 _斜体文本_
@@ -43,27 +43,25 @@ ___粗斜体文本___
 
 演示：
 
-
-*斜体文本*
+_斜体文本_
 
 _斜体文本_
 
 **粗体文本**
 
-__粗体文本__
+**粗体文本**
 
-***粗斜体文本***
+_**粗斜体文本**_
 
-___粗斜体文本___
+_**粗斜体文本**_
 
 ~~删除文本~~
 
-<u>下划线文本</u>
+下划线文本
 
 ## 分割线
 
-```markdown
-
+```text
 ***
 
 * * *
@@ -73,20 +71,9 @@ ___粗斜体文本___
 - - -
 
 ----------
-
 ```
 
 演示：
-
-***
-
-* * *
-
-*****
-
-- - -
-
-----------
 
 ## 列表
 
@@ -94,7 +81,7 @@ ___粗斜体文本___
 
 使用 `-` 或者 `*`
 
-```markdown
+```text
 - Apple
 - Banana
 - Pear
@@ -112,13 +99,12 @@ ___粗斜体文本___
 
 演示：
 
-- Apple
-- Banana
-- Pear
-- vegetable
-  - Tomato
-  - Potato
-
+* Apple
+* Banana
+* Pear
+* vegetable
+  * Tomato
+  * Potato
 * Apple
 * Banana
 * Pear
@@ -130,14 +116,13 @@ ___粗斜体文本___
 
 使用 `1. 2. 3.`
 
-```markdown
+```text
 1. Apple
 2. Banana
 3. Pear
 4. vegetable
   - Tomato
   - Potato
-
 ```
 
 演示：
@@ -153,14 +138,16 @@ ___粗斜体文本___
 
 使用 `>`
 
-```markdown
+```text
 > 最外层
 > > 第一层嵌套
 > > > 第二层嵌套
 ```
 
 > 最外层
+>
 > > 第一层嵌套
+> >
 > > > 第二层嵌套
 
 ## 代码
@@ -169,45 +156,40 @@ ___粗斜体文本___
 
 使用 \` \`
 
-```markdown
-
+```text
 `print("Hi There!")`
-
 ```
 
 ### 代码块
 
-使用 \```  ``` 包裹代码，可以注明语言
+使用 \`\`\` \`\`\` 包裹代码，可以注明语言
 
-``````markdown
-
+```text
 ```Python
 print("hello")
 
 ```
-
-``````
+```
 
 ## 链接
 
 `[Davinci的红茶馆]("https://davincievans.top")`
 
-演示：[Davinci的红茶馆]("https://davincievans.top")
+演示：\[Davinci的红茶馆\]\("[https://davincievans.top](https://davincievans.top)"\)
 
 ## 图片
 
-```markdown
+```text
 ![alt 属性文本](图片地址)
 
 ![alt 属性文本](图片地址 "可选标题")
 ```
 
-示例：`![hello](https://cdn.jsdelivr.net/gh/DavinciEvans/Imgs-bed@master/manifest/gallary/75778903_p0.jpg)`
-![hello](https://cdn.jsdelivr.net/gh/DavinciEvans/Imgs-bed@master/manifest/gallary/75778903_p0.jpg)
+示例：`![hello](https://cdn.jsdelivr.net/gh/DavinciEvans/Imgs-bed@master/manifest/gallary/75778903_p0.jpg)` ![hello](https://cdn.jsdelivr.net/gh/DavinciEvans/Imgs-bed@master/manifest/gallary/75778903_p0.jpg)
 
 ## 表格
 
-```markdown
+```text
 |  表头   | 表头  |
 |  ----  | ----  |
 | 单元格  | 单元格 |
@@ -215,11 +197,13 @@ print("hello")
 ```
 
 演示：
-|  Fruits | Prize  |
-|  ----  | ----  |
+
+| Fruits | Prize |
+| :--- | :--- |
 | Apple | $10 |
 | Banana | $15 |
 
 ## HTML
 
 markdown支持直接使用html来书写
+
