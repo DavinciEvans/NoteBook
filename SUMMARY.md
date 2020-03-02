@@ -7,6 +7,5 @@
     * [python高级代码](后端/python/python高级代码.md)
 - 收纳箱
   * [git学习速查](收纳箱/git学习速查.md)
+  * [Latex汇总](收纳箱/Latex汇总.md)
   * [markdown语法归纳](收纳箱/markdown语法归纳.md)
-- 笔记
-  * [Latex测试](笔记/Latex测试.md)
