@@ -83,7 +83,7 @@ B=
 
 - X+q=$$[a+q,b+q,c+q]$$（减法同理）
 
-- X\*q= $$[a\*q,b\*q,c\*q]$$
+- X\*q= $$[a*q,b*q,c*q]$$
 
 - X/q=$$[\frac{a}{q},\frac{b}{q},\frac{c}{q}]$$
 
