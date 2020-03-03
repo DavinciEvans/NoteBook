@@ -9,3 +9,5 @@
   * [git学习速查](收纳箱/git学习速查.md)
   * [Latex汇总](收纳箱/Latex汇总.md)
   * [markdown语法归纳](收纳箱/markdown语法归纳.md)
+- 笔记
+  * [Matlab的正确食用方法](笔记/Matlab的正确食用方法.md)
