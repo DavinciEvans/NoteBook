@@ -30,7 +30,7 @@ y = (x - 1) + (x + 2) ^ 2
 
 保存为 `new.m`
 
-若想运行则
+若想运行则在命令行输入
 
 ```matlab
 >>> x=4
@@ -47,7 +47,7 @@ y = (x - 1) + (x + 2) ^ 2
 
 - **列向量**：x = `[1;2;3;4;5;6]`
 
-**行向量与列向量互换**：y = x'
+**行向量与列向量互换**：`y = x'`
 
 **特殊矩阵**：
 
@@ -81,9 +81,9 @@ B=
 
 令X = [a,b,c]，q是常数。
 
-- X+q=$$[a+q,b+q,c+q]（减法同理）$$
+- X+q=$$[a+q,b+q,c+q]$$（减法同理）
 
-- X*q=$$[a*q,b*q,c*q]$$
+- X\*q= $$[a\*q,b\*q,c\*q]$$
 
 - X/q=$$[\frac{a}{q},\frac{b}{q},\frac{c}{q}]$$
 
@@ -99,7 +99,7 @@ B=
 
 - X+Y=$$[a+c,b+d]$$
 
-- X.*Y=$$[a*c,b*d]$$
+- X.\*Y=$$[a*c,b*d]$$
 
 - X./Y=$$[\frac{a}{c},\frac{b}{d}]$$
 
@@ -321,7 +321,7 @@ x，y 是点的集合，S 是线形。
 >> plot(x,y,'S',x,y2,'--')
 ```
 
-![sinsin](https://cdn.jsdelivr.net/gh/DavinciEvans/Imgs-bed@master/gallery/QQ截图20200303113007.png)
+![两个sin图像](https://cdn.jsdelivr.net/gh/DavinciEvans/Imgs-bed@master/gallery/QQ截图20200303113007.png)
 
 **绘制自定义函数**：`fpot` 可以绘制使用m文件自定义的函数。
 
@@ -376,7 +376,7 @@ x，y 是点的集合，S 是线形。
 >> plot3(x,y,z);
 ```
 
-![3d](https://cdn.jsdelivr.net/gh/DavinciEvans/Imgs-bed@master/gallery/QQ截图20200303190926.png)
+![曲线](https://cdn.jsdelivr.net/gh/DavinciEvans/Imgs-bed@master/gallery/QQ截图20200303190926.png)
 
 其中 `meshgrid` 的含义为将 x,y 所在的区域中所有的点形成一个矩阵，并重新赋值给 x,y。
 
@@ -384,11 +384,11 @@ x，y 是点的集合，S 是线形。
 
 **三维曲面**使用 `surf(x,y,z)`
 
-![3d](https://cdn.jsdelivr.net/gh/DavinciEvans/Imgs-bed@master/gallery/QQ截图20200303204449.png)
+![平面](https://cdn.jsdelivr.net/gh/DavinciEvans/Imgs-bed@master/gallery/QQ截图20200303204449.png)
 
 使用 `shading flat` 指令让图像更平滑。
 
-![3d](https://cdn.jsdelivr.net/gh/DavinciEvans/Imgs-bed@master/gallery/QQ截图20200303204819.png)
+![光滑平面](https://cdn.jsdelivr.net/gh/DavinciEvans/Imgs-bed@master/gallery/QQ截图20200303204819.png)
 
 ### 散点图
 
