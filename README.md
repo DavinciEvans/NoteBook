@@ -14,4 +14,4 @@ Write the code, change the world.
 | 杂物 | 记录了各种乱七八糟的技术 |
 | 收纳箱 | 收录了一些需要经常翻阅的资料等 |
 
-![th](https://cdn.jsdelivr.net/gh/DavinciEvans/Imgs-bed@master/gallery/touhou_1.png)
+![](https://cdn.jsdelivr.net/gh/DavinciEvans/Imgs-bed@master/gallery/touhou_1.png)
