@@ -48,7 +48,7 @@ $$
 
 ```Latex
 $$
-\lim_{x \to 0} =\infty
+\lim_{x\to0}\frac{1}{X} = \infty
 $$
 ```
 

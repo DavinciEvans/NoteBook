@@ -345,15 +345,15 @@ x，y 是点的集合，S 是线形。
 
 使用 `ezplot` 绘制。
 
-- `explot('f(x)', [a,b])`
+- `ezplot('f(x)', [a,b])`
 
 绘制 $$y=f(x)$$ 在 $$[a,b]$$ 上的图像。
 
-- `explot('f(x,y)',[a,b,c,d])`
+- `ezplot('f(x,y)',[a,b,c,d])`
 
 绘制隐函数 $$f(x,y)=0$$ 在 $$x\in[a,b]$$ 且 $$y\in[c,d]$$上的图像。
 
-- `explot('x(t)','y(t)',[a,b])`
+- `ezplot('x(t)','y(t)',[a,b])`
 
 绘制(x(t),y(t))在$$t\in[a,b]$$上的图像。
 
