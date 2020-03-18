@@ -1,6 +1,6 @@
 # SQL 语言初步
 
-SQL 功 能 | 动词
+| SQL 功 能 | 动词 |
 | --- | --- |
 数 据 查 询 | SELECT
 数 据 定 义 |CREATE，DROP，ALTER
