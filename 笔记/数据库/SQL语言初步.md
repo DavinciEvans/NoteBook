@@ -2,8 +2,8 @@
 
 | SQL 功 能 | 动词 |
 | --- | --- |
-数 据 查 询 | SELECT
-数 据 定 义 |CREATE，DROP，ALTER
+|数 据 查 询 | SELECT
+|数 据 定 义 |CREATE，DROP，ALTER
 数 据 操 纵 |INSERT，UPDATE，DELETE
 数 据 控 制 |GRANT，REVOKE
 
