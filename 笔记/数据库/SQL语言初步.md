@@ -192,6 +192,43 @@ ALTER TABLE <表名>
 
 在这里 RESTRICT 的含义为：若含有其他依赖该表的对象，则不能被删除， CASCADE 则可以，相关的依赖对象也将被删除。
 
+🌰：
+
 删除 Student 表
 
 `DROP TABLE Student CASCADE;`
+
+### 索引
+
+可以提高检索速度
+
+语句格式
+
+`CREATE [UNIQUE] [CLUSTER] INDEX <索引名> ON <表名>(<列名>[<次序>][,<列名>[<次序>] ]…);`
+
+- **<表名>**：要建索引的基本表的名字
+- **索引**：可以建立在该表的一列或多列上，各列名之间用逗号分隔
+- **<次序>**：指定索引值的排列次序，升序：ASC，降序：DESC。缺省值：ASC
+- **UNIQUE**：此索引的每一个索引值只对应唯一的数据记录
+- **CLUSTER**：表示要建立的索引是聚簇索引
+
+🌰：
+
+为学生-课程数据库中的Student，Course，SC三个
+表建立索引。Student表按学号升序建唯一索引，Course表
+按课程号升序建唯一索引，SC表按学号升序和课程号降序
+建唯一索引
+
+```SQL
+CREATE UNIQUE INDEX Stusno ON Student(Sno);
+CREATE UNIQUE INDEX Coucno ON Course(Cno);
+CREATE UNIQUE INDEX SCno ON SC(Sno ASC,Cno DESC);
+```
+
+### 修改索引
+
+`ALTER INDEX <旧索引名> RENAME TO <新索引名>`
+
+### 删除索引
+
+`DROP INDEX <索引名>`
