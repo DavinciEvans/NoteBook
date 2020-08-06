@@ -35,6 +35,16 @@ print(e)                     # Might print "[[ 0.91940167  0.08143941]
 
 浮点数数组：`dtype = float64`
 
+生成数列：`np.arange(m, n, p)`
+
+生成从 m 到 n 的以步长为 p 的数列
+
+`np.arange(m)`
+
+从 0 开始，生成 m 个整数数列
+
+求解方程：`np.linalg.solve(A, b)
+
 ## 运算
 
 ```python
@@ -119,3 +129,57 @@ print(vv)                 # Prints "[[1 0 1]
                           #          [1 0 1]
                           #          [1 0 1]]"
 ```
+
+## 绘图
+
+使用 matplotlib.plot 绘制
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Compute the x and y coordinates for points on sine and cosine curves
+x = np.arange(0, 3 * np.pi, 0.1)
+y_sin = np.sin(x)
+y_cos = np.cos(x)
+
+# Plot the points using matplotlib
+plt.plot(x, y_sin)
+plt.plot(x, y_cos)
+plt.xlabel('x axis label')
+plt.ylabel('y axis label')
+plt.title('Sine and Cosine')
+plt.legend(['Sine', 'Cosine'])
+plt.show()
+```
+
+绘制子图使用subplot
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Compute the x and y coordinates for points on sine and cosine curves
+x = np.arange(0, 3 * np.pi, 0.1)
+y_sin = np.sin(x)
+y_cos = np.cos(x)
+
+# Set up a subplot grid that has height 2 and width 1,
+# and set the first such subplot as active.
+plt.subplot(2, 1, 1)
+
+# Make the first plot
+plt.plot(x, y_sin)
+plt.title('Sine')
+
+# Set the second subplot as active, and make the second plot.
+plt.subplot(2, 1, 2)
+plt.plot(x, y_cos)
+plt.title('Cosine')
+
+# Show the figure.
+plt.show()
+```
+
+散点图：`plt.scatter(X, Y)`
+条形图：`bar(X, Y)`
