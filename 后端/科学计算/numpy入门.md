@@ -182,4 +182,16 @@ plt.show()
 ```
 
 散点图：`plt.scatter(X, Y)`
+
 条形图：`bar(X, Y)`
+
+`plt.figure()` 设置生成图片格式
+
+`figure(num=None, figsize=None, dpi=None, facecolor=None, edgecolor=None, frameon=True)`
+
+- num:图像编号或名称，数字为编号 ，字符串为名称
+- figsize:指定figure的宽和高，单位为英寸；
+- dpi参数指定绘图对象的分辨率，即每英寸多少个像素，缺省值为80
+- facecolor:背景颜色
+- edgecolor:边框颜色
+- frameon:是否显示边框
