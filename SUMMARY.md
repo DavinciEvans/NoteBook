@@ -1,31 +1,6 @@
 # Your Book Title
 
-- 前端
-  - Java Script
-    * [Promise的解读](前端/JavaScript/Promise的解读.md)
-    * [关于File API的食用方法](前端/JavaScript/关于File API的食用方法.md)
-- 后端
-  - [Python](后端/python/README.md)
-    * [os和os常用模块函数总结](后端/python/os和os常用模块函数总结.md)
-    * [python的惯例总结](后端/python/python的惯例总结.md)
-    * [python高级代码](后端/python/python高级代码.md)
-  - 科学计算
-    * [numpy入门](后端/科学计算/numpy入门.md)
-- 收纳箱
-  * [git学习速查](收纳箱/git学习速查.md)
-  * [Latex汇总](收纳箱/Latex汇总.md)
-  * [markdown语法归纳](收纳箱/markdown语法归纳.md)
 - 笔记
-  - 数字逻辑
-    * [数字逻辑的基本定律](笔记/数字逻辑/数字逻辑的基本定律.md)
-  - 数学实验
-    * [Matlab的正确食用方法](笔记/数学实验/Matlab的正确食用方法.md)
-    * [常微分方程](笔记/数学实验/常微分方程.md)
-    * [微积分](笔记/数学实验/微积分.md)
-    * [概率](笔记/数学实验/概率.md)
-    * [求导](笔记/数学实验/求导.md)
-    * [线性代数](笔记/数学实验/线性代数.md)
-    * [统计](笔记/数学实验/统计.md)
   - 数据库
     * [01.数据库概念](笔记/数据库/01.数据库概念.md)
     * [02.关系数据库](笔记/数据库/02.关系数据库.md)
@@ -39,3 +14,30 @@
     * [10.视图](笔记/数据库/10.视图.md)
     * [11.数据库安全性](笔记/数据库/11.数据库安全性.md)
     * [12.数据库完整性](笔记/数据库/12.数据库完整性.md)
+  - 数学实验
+    * [常微分方程](笔记/数学实验/常微分方程.md)
+    * [概率](笔记/数学实验/概率.md)
+    * [求导](笔记/数学实验/求导.md)
+    * [统计](笔记/数学实验/统计.md)
+    * [微积分](笔记/数学实验/微积分.md)
+    * [线性代数](笔记/数学实验/线性代数.md)
+    * [Matlab的正确食用方法](笔记/数学实验/Matlab的正确食用方法.md)
+  - 数字逻辑
+    * [数字逻辑的基本定律](笔记/数字逻辑/数字逻辑的基本定律.md)
+  - 英语
+    * [记单词](笔记/英语/记单词.md)
+- 后端
+  - 科学计算
+    * [numpy入门](后端/科学计算/numpy入门.md)
+  - [Python](后端/python/README.md)
+    * [os和os常用模块函数总结](后端/python/os和os常用模块函数总结.md)
+    * [python的惯例总结](后端/python/python的惯例总结.md)
+    * [python高级代码](后端/python/python高级代码.md)
+- 前端
+  - Java Script
+    * [关于File API的食用方法](前端/JavaScript/关于File API的食用方法.md)
+    * [Promise的解读](前端/JavaScript/Promise的解读.md)
+- 收纳箱
+  * [git学习速查](收纳箱/git学习速查.md)
+  * [Latex汇总](收纳箱/Latex汇总.md)
+  * [markdown语法归纳](收纳箱/markdown语法归纳.md)
