@@ -37,6 +37,9 @@
   - Java Script
     * [关于File API的食用方法](前端/JavaScript/关于File API的食用方法.md)
     * [Promise的解读](前端/JavaScript/Promise的解读.md)
+  - Vue
+    * [commonJS和ES6](前端/Vue/commonJS和ES6.md)
+    * [webpack食用方法](前端/Vue/webpack食用方法.md)
 - 收纳箱
   * [git学习速查](收纳箱/git学习速查.md)
   * [Latex汇总](收纳箱/Latex汇总.md)
