@@ -29,6 +29,8 @@
 - 后端
   - 科学计算
     * [numpy入门](后端/科学计算/numpy入门.md)
+  - PHP
+    * [Hello PHP](后端/PHP/HelloPHP.md)
   - [Python](后端/python/README.md)
     * [os和os常用模块函数总结](后端/python/os和os常用模块函数总结.md)
     * [python的惯例总结](后端/python/python的惯例总结.md)
